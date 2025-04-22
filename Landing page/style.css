@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+  }
+  
+  /* Cabeçalho e Navegação */
+  header {
+    background-color: #a1cbe6;
+    padding: 20px 0;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #507d9c;
+    transition: background-color 0.3s;
+  }
+  
+  nav a:hover {
+    background-color: #3b5c72;
+  }
+  
+  /* Conteúdo principal */
+  main {
+    max-width: 900px;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  }
+  
+  /* Títulos */
+  h1, h2 {
+    color: #507d9c;
+    margin-bottom: 15px;
+  }
+  
+  /* Imagens */
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin: 15px 0;
+  }
+  
+  /* Tabela */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #d0e8f2;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  th, td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #a1cbe6;
+  }
+  
+  th {
+    background-color: #a1cbe6;
+    color: #fff;
+  }
+  
+  /* Formulário */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+    color: #507d9c;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  select,
+  textarea {
+    padding: 10px;
+    border: 1px solid #a1cbe6;
+    border-radius: 5px;
+    background-color: #f0f8fc;
+    width: 100%;
+  }
+  
+  input[type="radio"],
+  input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  button {
+    background-color: #507d9c;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #395a70;
+  }
+  
+  /* Responsividade */
+  @media (max-width: 768px) {
+    nav ul {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    main {
+      padding: 20px;
+    }
+  
+    table, th, td {
+      font-size: 14px;
+    }
+  }
