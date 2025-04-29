@@ -1,0 +1,46 @@
+.retangulos {
+    width: 300px;
+    height: 30px;
+    padding: 20px;
+    background-color: lightgray;
+    border-width: 10px;
+    border-color: blue;
+    border-style: solid;
+    outline-style: solid;
+    outline-color: red;
+    outline-width: 10px;
+    margin: 20px;
+    display: inline-block;
+    text-align: center;
+}
+.box1 {
+    width: 300px;
+    height: 30px;
+    padding: 20px;
+    background-color: lightgray;
+    border-width: 10px;
+    border-color:   red;
+    border-style: solid;
+    outline-style: solid;
+    outline-color: blue;
+    outline-width: 10px;
+    display: inline-block;
+    text-align: center;
+    margin: 20px;
+}
+.faixa {
+    background-color: lightgoldenrodyellow;
+    outline-color: blueviolet;
+    outline-style: solid;
+    text-align: center;
+}
+.quadrado {
+    width: 70px;
+    height: 70px;
+    padding: 30px;
+    background-color: lightgray;
+    outline-color: blueviolet;
+    outline-style: solid;
+    text-align: center;
+    display: inline-block
+}
