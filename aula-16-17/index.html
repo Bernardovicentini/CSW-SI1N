@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ptbr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aula-16-17</title>
+</head>
+
+<body>
+    <h1>Formulario</h1>
+    <form action="" method="post">
+        <label for="nome">Nome</label>
+        <input type="text" name="nome" placeholder="Digite seu nome" required><br><br>
+        <label for="email">E-mail</label>
+        <input type="email" name="email" placeholder="Digite seu e-mail" required><br><br><br>
+        <textarea name="comentario" cols="40" rows="10"
+            placeholder="Escreva aqui seu comentário" readonly></textarea><br><br> 
+        <label for="senha">Senha</label>
+        <input type="password" name="senha" placeholder="Digite sua senha" required><br><br>
+        <label for="">Selecione as opções</label>
+        <br>
+        <input type="checkbox" name="opcao1">Opção 1
+        <br>
+        <input type="checkbox" name="opcao2">Opção 2
+        <br>
+        <input type="checkbox" name="opcao3">Opção 3
+        <br>
+        <br>
+        <label for="">Escolha as opções</label>
+        <br>
+        Opção 1 <input type="radio" name="oopcao1">
+        <br>
+        Opção 2 <input type="radio" name="oopcao2">
+        <br>
+        Opção 3 <input type="radio" name="oopcao3">
+        <br>
+        <br>
+        <label for="">Esporte favorito</label>
+        <select name="esportes" size="1">
+            <option value="">Selecione</option>
+            <option value="">Futebol</option>
+            <option value="">Basquete</option>
+            <option value="">Volei</option>
+        </select>
+        <br>
+        <br>
+        <label for="">Data de nascimento</label>
+        <input type="date" name="data" required>
+        <br>
+        <br>
+        <label for="">Selecione uma cor</label>
+        <input type="color" name="cor">
+        <br>
+        <br>
+        <input type="submit" value="enviar">
+    </form>
+</body>
+
+</html>
